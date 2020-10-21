@@ -54,6 +54,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blue,
+          title: Text("Facebook Login"),
+          centerTitle: true,
+        ),
         body: Center(
           child:  _isLogin ? Column(
             mainAxisAlignment: MainAxisAlignment.center,
